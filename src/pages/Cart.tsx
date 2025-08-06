@@ -1,13 +1,13 @@
 import NavigationBar from "@/components/NavigationBar";
-import ProductList from "@/components/ProductList";
+import CartPage from "@/components/CartPage";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
-const Index = () => (
+const Cart = () => (
   <div className="min-h-screen bg-gray-50">
     <NavigationBar />
-    <ProductList />
+    <CartPage />
     <MadeWithDyad />
   </div>
 );
 
-export default Index;
+export default Cart;
